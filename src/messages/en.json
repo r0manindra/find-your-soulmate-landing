@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Find Your Soulmate — The Ultimate Dating & Flirting Guide",
+    "description": "Master the art of connection with our step-by-step guide. AI-powered coaching, 20 transformative chapters, and a curated reading list. Start your journey today."
+  },
+  "nav": {
+    "guide": "The Guide",
+    "books": "Books",
+    "app": "The App",
+    "pricing": "Pricing",
+    "download": "Get the App",
+    "buyCourse": "Get the Course"
+  },
+  "hero": {
+    "badge": "Your journey to love starts here",
+    "title": "Find Your\nSoulmate",
+    "subtitle": "A step-by-step guide to mastering confidence, connection, and the art of flirting — powered by AI coaching.",
+    "cta": "Get the Course — €4.99",
+    "ctaSecondary": "Download the Free App",
+    "socialProof": "Join thousands already on their journey"
+  },
+  "guide": {
+    "badge": "20 Chapters",
+    "title": "The Complete Guide",
+    "subtitle": "From self-discovery to finding your soulmate — a proven, step-by-step framework that transforms how you connect.",
+    "chaptersLabel": "chapters",
+    "viewAll": "View all chapters"
+  },
+  "books": {
+    "badge": "Curated Reading",
+    "title": "Recommended Books",
+    "subtitle": "Hand-picked books that complement your journey. Each one chosen for its transformative power in relationships and self-growth.",
+    "by": "by",
+    "booksCount": "10 essential reads"
+  },
+  "appShowcase": {
+    "badge": "Free App",
+    "title": "Your Pocket Coach",
+    "subtitle": "Track your progress, chat with your AI coach, and unlock achievements — all in a beautifully designed mobile app.",
+    "features": {
+      "progress": {
+        "title": "Track Progress",
+        "description": "Visual progress through all 20 chapters with completion tracking"
+      },
+      "ai": {
+        "title": "AI Coach \"Hank\"",
+        "description": "Get personalized advice from your witty, confident dating coach"
+      },
+      "achievements": {
+        "title": "Achievements",
+        "description": "Unlock badges as you grow — from First Step to Graduation"
+      },
+      "books": {
+        "title": "Reading List",
+        "description": "Track your reading progress with our curated book collection"
+      }
+    },
+    "cta": "Download Free on iOS & Android"
+  },
+  "pricing": {
+    "badge": "One-time purchase",
+    "title": "Get the Complete Course",
+    "subtitle": "Everything you need to transform your dating life, in one comprehensive PDF guide.",
+    "price": "€4.99",
+    "priceNote": "One-time payment · Instant PDF download",
+    "cta": "Buy Now",
+    "features": [
+      "All 20 chapters with in-depth exercises",
+      "Journal prompts for self-reflection",
+      "Conversation starters & templates",
+      "Body language cheat sheets",
+      "Lifetime access — download anytime"
+    ],
+    "guarantee": "30-day money-back guarantee. No questions asked."
+  },
+  "footer": {
+    "tagline": "Helping you find meaningful connection.",
+    "legal": "Legal",
+    "impressum": "Impressum",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "resources": "Resources",
+    "copyright": "© {year} Find Your Soulmate. All rights reserved."
+  },
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "content": "Information according to § 5 TMG"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: {date}"
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "lastUpdated": "Last updated: {date}"
+    }
+  }
+}

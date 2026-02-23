@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Finde Deine Seelenverwandte — Der ultimative Dating & Flirt Guide",
+    "description": "Meistere die Kunst der Verbindung mit unserem Schritt-für-Schritt-Guide. KI-gestütztes Coaching, 20 transformative Kapitel und eine kuratierte Leseliste."
+  },
+  "nav": {
+    "guide": "Der Guide",
+    "books": "Bücher",
+    "app": "Die App",
+    "pricing": "Preise",
+    "download": "App laden",
+    "buyCourse": "Kurs kaufen"
+  },
+  "hero": {
+    "badge": "Deine Reise zur Liebe beginnt hier",
+    "title": "Finde Deine\nSeelenverwandte",
+    "subtitle": "Ein Schritt-für-Schritt-Guide zum Meistern von Selbstbewusstsein, Verbindung und der Kunst des Flirtens — mit KI-Coaching.",
+    "cta": "Kurs kaufen — 4,99 €",
+    "ctaSecondary": "Kostenlose App laden",
+    "socialProof": "Schließe dich Tausenden an, die bereits auf ihrer Reise sind"
+  },
+  "guide": {
+    "badge": "20 Kapitel",
+    "title": "Der komplette Guide",
+    "subtitle": "Von der Selbstentdeckung bis zum Finden deiner Seelenverwandten — ein bewährtes, schrittweises Framework, das verändert, wie du dich verbindest.",
+    "chaptersLabel": "Kapitel",
+    "viewAll": "Alle Kapitel anzeigen"
+  },
+  "books": {
+    "badge": "Kuratierte Lektüre",
+    "title": "Buchempfehlungen",
+    "subtitle": "Handverlesene Bücher, die deine Reise ergänzen. Jedes einzelne ausgewählt für seine transformative Kraft in Beziehungen und persönlichem Wachstum.",
+    "by": "von",
+    "booksCount": "10 essenzielle Bücher"
+  },
+  "appShowcase": {
+    "badge": "Kostenlose App",
+    "title": "Dein Taschen-Coach",
+    "subtitle": "Verfolge deinen Fortschritt, chatte mit deinem KI-Coach und schalte Achievements frei — alles in einer wunderschön designten App.",
+    "features": {
+      "progress": {
+        "title": "Fortschritt verfolgen",
+        "description": "Visueller Fortschritt durch alle 20 Kapitel mit Abschlusstracking"
+      },
+      "ai": {
+        "title": "KI-Coach \u201EHank\u201C",
+        "description": "Erhalte personalisierte Ratschläge von deinem witzigen, selbstbewussten Dating-Coach"
+      },
+      "achievements": {
+        "title": "Achievements",
+        "description": "Schalte Abzeichen frei, während du wächst — vom Ersten Schritt bis zum Abschluss"
+      },
+      "books": {
+        "title": "Leseliste",
+        "description": "Verfolge deinen Lesefortschritt mit unserer kuratierten Büchersammlung"
+      }
+    },
+    "cta": "Kostenlos laden für iOS & Android"
+  },
+  "pricing": {
+    "badge": "Einmaliger Kauf",
+    "title": "Hol dir den kompletten Kurs",
+    "subtitle": "Alles, was du brauchst, um dein Dating-Leben zu transformieren, in einem umfassenden PDF-Guide.",
+    "price": "4,99 €",
+    "priceNote": "Einmalige Zahlung · Sofortiger PDF-Download",
+    "cta": "Jetzt kaufen",
+    "features": [
+      "Alle 20 Kapitel mit ausführlichen Übungen",
+      "Journal-Prompts zur Selbstreflexion",
+      "Gesprächsstarter & Vorlagen",
+      "Körpersprache-Spickzettel",
+      "Lebenslanger Zugang — jederzeit herunterladen"
+    ],
+    "guarantee": "30-Tage-Geld-zurück-Garantie. Keine Fragen."
+  },
+  "footer": {
+    "tagline": "Wir helfen dir, bedeutungsvolle Verbindungen zu finden.",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "resources": "Ressourcen",
+    "copyright": "© {year} Find Your Soulmate. Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "content": "Angaben gemäß § 5 TMG"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "lastUpdated": "Zuletzt aktualisiert: {date}"
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert: {date}"
+    }
+  }
+}
