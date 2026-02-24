@@ -27,7 +27,7 @@ export function Footer() {
           </div>
 
           {/* Legal */}
-          <div>
+          <nav aria-label="Legal links">
             <h4 className="font-semibold text-neutral-900 dark:text-white mb-3">
               {t('legal')}
             </h4>
@@ -48,10 +48,10 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Resources */}
-          <div>
+          <nav aria-label="Resources">
             <h4 className="font-semibold text-neutral-900 dark:text-white mb-3">
               {t('resources')}
             </h4>
@@ -68,11 +68,11 @@ export function Footer() {
               </li>
               <li>
                 <a href="#app" className="text-sm text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-                  Mobile App
+                  Charismo
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
 
         <div className="mt-12 pt-6 border-t border-neutral-200 dark:border-neutral-800">
