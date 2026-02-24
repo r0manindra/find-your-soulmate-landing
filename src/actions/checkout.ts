@@ -13,11 +13,11 @@ export async function createCheckoutSession(locale: string) {
           currency: 'eur',
           product_data: {
             name: locale === 'de'
-              ? 'Find Your Soulmate — Der komplette Guide (PDF)'
-              : 'Find Your Soulmate — The Complete Guide (PDF)',
+              ? 'Charismo Premium — Dein KI-Dating-Coach'
+              : 'Charismo Premium — Your AI Dating Coach',
             description: locale === 'de'
-              ? '20 Kapitel mit Übungen, Journal-Prompts und mehr'
-              : '20 chapters with exercises, journal prompts, and more',
+              ? 'Alle 20 Kapitel, 6 KI-Coaches, personalisierte Buchempfehlungen und mehr'
+              : 'All 20 chapters, 6 AI coaches, personalized book recommendations, and more',
           },
           unit_amount: 499, // €4.99 in cents
         },

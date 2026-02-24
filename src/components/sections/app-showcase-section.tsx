@@ -5,12 +5,12 @@ import { GlassPanel } from '@/components/shared/glass-panel';
 import { SectionBadge } from '@/components/shared/section-badge';
 import { BrandButton } from '@/components/shared/brand-button';
 import { motion } from 'framer-motion';
-import { BarChart3, Bot, Trophy, BookOpen, Download } from 'lucide-react';
+import { Users, Route, Flame, BookOpen, Download } from 'lucide-react';
 
 const features = [
-  { key: 'progress', icon: BarChart3 },
-  { key: 'ai', icon: Bot },
-  { key: 'achievements', icon: Trophy },
+  { key: 'progress', icon: Users },
+  { key: 'ai', icon: Route },
+  { key: 'achievements', icon: Flame },
   { key: 'books', icon: BookOpen },
 ] as const;
 

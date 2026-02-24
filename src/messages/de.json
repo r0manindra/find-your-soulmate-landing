@@ -1,86 +1,108 @@
 {
   "metadata": {
-    "title": "Finde Deine Seelenverwandte — Der ultimative Dating & Flirt Guide",
-    "description": "Meistere die Kunst der Verbindung mit unserem Schritt-für-Schritt-Guide. KI-gestütztes Coaching, 20 transformative Kapitel und eine kuratierte Leseliste."
+    "title": "FlirtIQ — Das Duolingo des Datings",
+    "description": "Lerne Charismo kennen, deinen KI-Dating-Coach. Meistere soziale Fähigkeiten und Flirten durch eine strukturierte 20-Kapitel-Reise mit personalisiertem KI-Coaching."
   },
   "nav": {
-    "guide": "Der Guide",
+    "guide": "Curriculum",
     "books": "Bücher",
-    "app": "Die App",
+    "app": "Charismo",
     "pricing": "Preise",
-    "download": "App laden",
-    "buyCourse": "Kurs kaufen"
+    "download": "Charismo laden",
+    "buyCourse": "Kostenlos starten"
   },
   "hero": {
-    "badge": "Deine Reise zur Liebe beginnt hier",
-    "title": "Finde Deine\nSeelenverwandte",
-    "subtitle": "Ein Schritt-für-Schritt-Guide zum Meistern von Selbstbewusstsein, Verbindung und der Kunst des Flirtens — mit KI-Coaching.",
-    "cta": "Kurs kaufen — 4,99 €",
-    "ctaSecondary": "Kostenlose App laden",
-    "socialProof": "Schließe dich Tausenden an, die bereits auf ihrer Reise sind"
+    "badge": "Das Duolingo des Datings",
+    "title": "Schluss mit\nDating-Ratschlägen googeln",
+    "subtitle": "Lerne Charismo kennen — dein KI-Dating-Coach, der dir wirklich beibringt, wie du Verbindungen aufbaust. 20 Kapitel. 6 KI-Coaches. Null peinliche Anmachsprüche.",
+    "cta": "Charismo laden — Kostenlos",
+    "ctaSecondary": "Curriculum ansehen",
+    "socialProof": "Kostenlos starten · Verfügbar auf iOS · Keine Kreditkarte nötig"
   },
   "guide": {
-    "badge": "20 Kapitel",
-    "title": "Der komplette Guide",
-    "subtitle": "Von der Selbstentdeckung bis zum Finden deiner Seelenverwandten — ein bewährtes, schrittweises Framework, das verändert, wie du dich verbindest.",
+    "badge": "20 Kapitel · 5 Phasen",
+    "title": "Ein echtes System, keine Zufallstipps",
+    "subtitle": "Charismo führt dich durch ein strukturiertes Curriculum — vom Aufbau von Selbstbewusstsein bis zur Meisterung von Verbindungen. Wie Duolingo, aber für dein Liebesleben.",
     "chaptersLabel": "Kapitel",
-    "viewAll": "Alle Kapitel anzeigen"
+    "viewAll": "Komplettes Curriculum ansehen",
+    "phaseLabel": "Phase",
+    "chaptersCount": "4 Kapitel"
   },
   "books": {
-    "badge": "Kuratierte Lektüre",
-    "title": "Buchempfehlungen",
-    "subtitle": "Handverlesene Bücher, die deine Reise ergänzen. Jedes einzelne ausgewählt für seine transformative Kraft in Beziehungen und persönlichem Wachstum.",
+    "badge": "Kuratierte Bibliothek",
+    "title": "12 Bücher, die wirklich helfen",
+    "subtitle": "Handverlesene Lektüre, die sich an dein Profil anpasst. Kein Blabla, keine veralteten Anmach-Handbücher — nur Bücher, die verändern, wie du über Verbindung denkst.",
     "by": "von",
-    "booksCount": "10 essenzielle Bücher"
+    "booksCount": "12 essenzielle Bücher"
   },
   "appShowcase": {
-    "badge": "Kostenlose App",
-    "title": "Dein Taschen-Coach",
-    "subtitle": "Verfolge deinen Fortschritt, chatte mit deinem KI-Coach und schalte Achievements frei — alles in einer wunderschön designten App.",
+    "badge": "Triff Charismo",
+    "title": "Dein KI-Dating-Coach",
+    "subtitle": "Keine Dating-App. Eine Dating-Bildungs-App, die dir beibringt, WIE du Verbindungen aufbaust — mit KI-Coaches, die echte, personalisierte Ratschläge geben.",
     "features": {
       "progress": {
-        "title": "Fortschritt verfolgen",
-        "description": "Visueller Fortschritt durch alle 20 Kapitel mit Abschlusstracking"
+        "title": "6 KI-Coach-Persönlichkeiten",
+        "description": "Von Charismo, dem charismatischen Mentor, bis Sage, dem achtsamen Introvertiertenguide. Wähle den Coach, der zu dir passt."
       },
       "ai": {
-        "title": "KI-Coach \u201EHank\u201C",
-        "description": "Erhalte personalisierte Ratschläge von deinem witzigen, selbstbewussten Dating-Coach"
+        "title": "Personalisierter Lernpfad",
+        "description": "Mach das Onboarding-Quiz — soziale Energie, Fähigkeitslevel, Dating-Ziele — und bekomme ein auf dich zugeschnittenes Curriculum."
       },
       "achievements": {
-        "title": "Achievements",
-        "description": "Schalte Abzeichen frei, während du wächst — vom Ersten Schritt bis zum Abschluss"
+        "title": "Gamification & Streaks",
+        "description": "Kapitel-Tracking, tägliche Streaks und ein Abschlusssystem. Weil Konstanz Motivation schlägt."
       },
       "books": {
-        "title": "Leseliste",
-        "description": "Verfolge deinen Lesefortschritt mit unserer kuratierten Büchersammlung"
+        "title": "12 kuratierte Bücher",
+        "description": "Buchempfehlungen, die sich an dein Profil anpassen. Verfolge deinen Lesefortschritt neben deinen Kapiteln."
       }
     },
-    "cta": "Kostenlos laden für iOS & Android"
+    "cta": "Bald verfügbar auf iOS"
   },
   "pricing": {
-    "badge": "Einmaliger Kauf",
-    "title": "Hol dir den kompletten Kurs",
-    "subtitle": "Alles, was du brauchst, um dein Dating-Leben zu transformieren, in einem umfassenden PDF-Guide.",
-    "price": "4,99 €",
-    "priceNote": "Einmalige Zahlung · Sofortiger PDF-Download",
-    "cta": "Jetzt kaufen",
-    "features": [
-      "Alle 20 Kapitel mit ausführlichen Übungen",
-      "Journal-Prompts zur Selbstreflexion",
-      "Gesprächsstarter & Vorlagen",
-      "Körpersprache-Spickzettel",
-      "Lebenslanger Zugang — jederzeit herunterladen"
-    ],
-    "guarantee": "30-Tage-Geld-zurück-Garantie. Keine Fragen."
+    "badge": "Kostenlos starten",
+    "title": "Lerne in deinem Tempo",
+    "subtitle": "Starte mit Phase 1 und einem kostenlosen KI-Coach. Geh Premium, wenn du bereit für die komplette Reise bist.",
+    "free": {
+      "title": "Kostenlos",
+      "price": "0 $",
+      "priceNote": "für immer",
+      "features": [
+        "Phase 1: Grundlagen (4 Kapitel)",
+        "1 KI-Coach (Charismo)",
+        "Grundlegendes Fortschritts-Tracking",
+        "Community-Zugang"
+      ],
+      "cta": "Kostenlos starten"
+    },
+    "premium": {
+      "title": "Premium",
+      "monthlyPrice": "6,99 $",
+      "monthlyNote": "/Monat",
+      "yearlyPrice": "49,99 $",
+      "yearlyNote": "/Jahr",
+      "yearlySavings": "40% sparen",
+      "yearlyOriginal": "83,88 $",
+      "features": [
+        "Alle 20 Kapitel in 5 Phasen",
+        "Alle 6 KI-Coach-Persönlichkeiten",
+        "12 personalisierte Buchempfehlungen",
+        "Volles Gamification & Streak-Tracking",
+        "Regelmäßig neue Inhalte"
+      ],
+      "cta": "Premium werden",
+      "popular": "Beliebteste Wahl"
+    },
+    "guarantee": "Jederzeit kündbar. Keine Fragen."
   },
   "footer": {
-    "tagline": "Wir helfen dir, bedeutungsvolle Verbindungen zu finden.",
+    "tagline": "Wir bringen der Welt bei, wie man sich wirklich verbindet.",
     "legal": "Rechtliches",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "terms": "AGB",
     "resources": "Ressourcen",
-    "copyright": "© {year} Find Your Soulmate. Alle Rechte vorbehalten."
+    "copyright": "© {year} FlirtIQ. Alle Rechte vorbehalten."
   },
   "legal": {
     "impressum": {

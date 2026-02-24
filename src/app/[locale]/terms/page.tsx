@@ -13,13 +13,13 @@ export default function TermsPage() {
         <h2>{locale === 'de' ? '1. Geltungsbereich' : '1. Scope'}</h2>
         <p>
           {locale === 'de'
-            ? 'Diese Allgemeinen Geschäftsbedingungen gelten für den Kauf digitaler Produkte über unsere Website findyoursoulmate.app.'
-            : 'These Terms and Conditions apply to the purchase of digital products via our website findyoursoulmate.app.'}
+            ? 'Diese Allgemeinen Geschäftsbedingungen gelten für den Kauf digitaler Produkte über unsere Website flirtiq.app.'
+            : 'These Terms and Conditions apply to the purchase of digital products via our website flirtiq.app.'}
         </p>
 
         <h2>{locale === 'de' ? '2. Vertragspartner' : '2. Contracting Party'}</h2>
         <p>
-          Find Your Soulmate<br />
+          FlirtIQ<br />
           {locale === 'de' ? 'Musterstraße 1' : 'Sample Street 1'}<br />
           12345 Berlin, {locale === 'de' ? 'Deutschland' : 'Germany'}
         </p>
@@ -41,8 +41,8 @@ export default function TermsPage() {
         <h2>{locale === 'de' ? '5. Widerrufsrecht' : '5. Right of Withdrawal'}</h2>
         <p>
           {locale === 'de'
-            ? 'Sie haben das Recht, binnen 30 Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Kontaktieren Sie uns unter hello@findyoursoulmate.app.'
-            : 'You have the right to withdraw from this contract within 30 days without giving any reason. Contact us at hello@findyoursoulmate.app.'}
+            ? 'Sie haben das Recht, binnen 30 Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Kontaktieren Sie uns unter hello@flirtiq.app.'
+            : 'You have the right to withdraw from this contract within 30 days without giving any reason. Contact us at hello@flirtiq.app.'}
         </p>
 
         <h2>{locale === 'de' ? '6. Haftung' : '6. Liability'}</h2>

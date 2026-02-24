@@ -40,7 +40,7 @@ export function Navbar() {
             <Heart className="w-4 h-4 text-white fill-white" />
           </div>
           <span className="font-semibold text-lg tracking-tight text-neutral-900 dark:text-white">
-            Soulmate
+            FlirtIQ
           </span>
         </Link>
 

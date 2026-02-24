@@ -19,10 +19,10 @@ export default function PrivacyPage() {
 
         <h2>{locale === 'de' ? '2. Verantwortlicher' : '2. Controller'}</h2>
         <p>
-          Find Your Soulmate<br />
+          FlirtIQ<br />
           {locale === 'de' ? 'Musterstraße 1' : 'Sample Street 1'}<br />
           12345 Berlin, {locale === 'de' ? 'Deutschland' : 'Germany'}<br />
-          E-Mail: privacy@findyoursoulmate.app
+          E-Mail: privacy@flirtiq.app
         </p>
 
         <h2>{locale === 'de' ? '3. Erhobene Daten' : '3. Data Collection'}</h2>
@@ -49,8 +49,8 @@ export default function PrivacyPage() {
         <h2>{locale === 'de' ? '6. Ihre Rechte' : '6. Your Rights'}</h2>
         <p>
           {locale === 'de'
-            ? 'Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Kontaktieren Sie uns unter privacy@findyoursoulmate.app.'
-            : 'You have the right to access, rectify, delete, restrict processing, data portability, and object. Contact us at privacy@findyoursoulmate.app.'}
+            ? 'Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Kontaktieren Sie uns unter privacy@flirtiq.app.'
+            : 'You have the right to access, rectify, delete, restrict processing, data portability, and object. Contact us at privacy@flirtiq.app.'}
         </p>
       </div>
     </section>

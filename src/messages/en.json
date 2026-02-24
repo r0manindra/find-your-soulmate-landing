@@ -1,86 +1,108 @@
 {
   "metadata": {
-    "title": "Find Your Soulmate — The Ultimate Dating & Flirting Guide",
-    "description": "Master the art of connection with our step-by-step guide. AI-powered coaching, 20 transformative chapters, and a curated reading list. Start your journey today."
+    "title": "FlirtIQ — The Duolingo of Dating",
+    "description": "Meet Charismo, your AI dating coach. Master social skills and flirting through a structured 20-chapter journey with personalized AI coaching. Free to start."
   },
   "nav": {
-    "guide": "The Guide",
+    "guide": "Curriculum",
     "books": "Books",
-    "app": "The App",
+    "app": "Charismo",
     "pricing": "Pricing",
-    "download": "Get the App",
-    "buyCourse": "Get the Course"
+    "download": "Get Charismo",
+    "buyCourse": "Start Free"
   },
   "hero": {
-    "badge": "Your journey to love starts here",
-    "title": "Find Your\nSoulmate",
-    "subtitle": "A step-by-step guide to mastering confidence, connection, and the art of flirting — powered by AI coaching.",
-    "cta": "Get the Course — €4.99",
-    "ctaSecondary": "Download the Free App",
-    "socialProof": "Join thousands already on their journey"
+    "badge": "The Duolingo of Dating",
+    "title": "Stop Googling\nDating Advice",
+    "subtitle": "Meet Charismo — your AI dating coach that actually teaches you how to connect. 20 chapters. 6 AI coaches. Zero cringe pickup lines.",
+    "cta": "Download Charismo — It's Free",
+    "ctaSecondary": "See the Curriculum",
+    "socialProof": "Free to start · Available on iOS · No credit card needed"
   },
   "guide": {
-    "badge": "20 Chapters",
-    "title": "The Complete Guide",
-    "subtitle": "From self-discovery to finding your soulmate — a proven, step-by-step framework that transforms how you connect.",
+    "badge": "20 Chapters · 5 Phases",
+    "title": "A Real System, Not Random Tips",
+    "subtitle": "Charismo walks you through a structured curriculum — from building confidence to mastering connection. Think Duolingo, but for your love life.",
     "chaptersLabel": "chapters",
-    "viewAll": "View all chapters"
+    "viewAll": "View full curriculum",
+    "phaseLabel": "Phase",
+    "chaptersCount": "4 chapters"
   },
   "books": {
-    "badge": "Curated Reading",
-    "title": "Recommended Books",
-    "subtitle": "Hand-picked books that complement your journey. Each one chosen for its transformative power in relationships and self-growth.",
+    "badge": "Curated Library",
+    "title": "12 Books That Actually Help",
+    "subtitle": "Hand-picked reads that adapt to your profile. No fluff, no outdated pickup manuals — just books that change how you think about connection.",
     "by": "by",
-    "booksCount": "10 essential reads"
+    "booksCount": "12 essential reads"
   },
   "appShowcase": {
-    "badge": "Free App",
-    "title": "Your Pocket Coach",
-    "subtitle": "Track your progress, chat with your AI coach, and unlock achievements — all in a beautifully designed mobile app.",
+    "badge": "Meet Charismo",
+    "title": "Your AI Dating Coach",
+    "subtitle": "Not another dating app. A dating education app that teaches you HOW to connect — with AI coaches who give real, personalized advice.",
     "features": {
       "progress": {
-        "title": "Track Progress",
-        "description": "Visual progress through all 20 chapters with completion tracking"
+        "title": "6 AI Coach Personalities",
+        "description": "From Charismo the charismatic mentor to Sage the mindful introvert guide. Pick the coach that matches your vibe."
       },
       "ai": {
-        "title": "AI Coach \"Hank\"",
-        "description": "Get personalized advice from your witty, confident dating coach"
+        "title": "Personalized Learning Path",
+        "description": "Take the onboarding quiz — social energy, skill level, dating goals — and get a curriculum tailored to you."
       },
       "achievements": {
-        "title": "Achievements",
-        "description": "Unlock badges as you grow — from First Step to Graduation"
+        "title": "Gamification & Streaks",
+        "description": "Chapter tracking, daily streaks, and a graduation system. Because consistency beats motivation."
       },
       "books": {
-        "title": "Reading List",
-        "description": "Track your reading progress with our curated book collection"
+        "title": "12 Curated Books",
+        "description": "Book recommendations that adapt to your profile. Track your reading progress alongside your chapters."
       }
     },
-    "cta": "Download Free on iOS & Android"
+    "cta": "Coming Soon to iOS"
   },
   "pricing": {
-    "badge": "One-time purchase",
-    "title": "Get the Complete Course",
-    "subtitle": "Everything you need to transform your dating life, in one comprehensive PDF guide.",
-    "price": "€4.99",
-    "priceNote": "One-time payment · Instant PDF download",
-    "cta": "Buy Now",
-    "features": [
-      "All 20 chapters with in-depth exercises",
-      "Journal prompts for self-reflection",
-      "Conversation starters & templates",
-      "Body language cheat sheets",
-      "Lifetime access — download anytime"
-    ],
-    "guarantee": "30-day money-back guarantee. No questions asked."
+    "badge": "Free to Start",
+    "title": "Learn at Your Own Pace",
+    "subtitle": "Start with Phase 1 and a free AI coach. Go premium when you're ready for the full journey.",
+    "free": {
+      "title": "Free",
+      "price": "$0",
+      "priceNote": "forever",
+      "features": [
+        "Phase 1: Foundation (4 chapters)",
+        "1 AI coach (Charismo)",
+        "Basic progress tracking",
+        "Community access"
+      ],
+      "cta": "Get Started Free"
+    },
+    "premium": {
+      "title": "Premium",
+      "monthlyPrice": "$6.99",
+      "monthlyNote": "/month",
+      "yearlyPrice": "$49.99",
+      "yearlyNote": "/year",
+      "yearlySavings": "Save 40%",
+      "yearlyOriginal": "$83.88",
+      "features": [
+        "All 20 chapters across 5 phases",
+        "All 6 AI coach personalities",
+        "12 personalized book recommendations",
+        "Full gamification & streak tracking",
+        "New content added regularly"
+      ],
+      "cta": "Go Premium",
+      "popular": "Most Popular"
+    },
+    "guarantee": "Cancel anytime. No questions asked."
   },
   "footer": {
-    "tagline": "Helping you find meaningful connection.",
+    "tagline": "Teaching the world how to actually connect.",
     "legal": "Legal",
     "impressum": "Impressum",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
     "resources": "Resources",
-    "copyright": "© {year} Find Your Soulmate. All rights reserved."
+    "copyright": "© {year} FlirtIQ. All rights reserved."
   },
   "legal": {
     "impressum": {

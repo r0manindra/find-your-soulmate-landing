@@ -18,7 +18,7 @@ export function Footer() {
                 <Heart className="w-4 h-4 text-white fill-white" />
               </div>
               <span className="font-semibold text-lg tracking-tight text-neutral-900 dark:text-white">
-                Soulmate
+                FlirtIQ
               </span>
             </div>
             <p className="mt-3 text-sm text-neutral-500 dark:text-neutral-400">

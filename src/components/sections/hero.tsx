@@ -75,12 +75,12 @@ export function HeroSection() {
               className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <BrandButton size="lg" className="gap-2">
+                <Download className="w-4 h-4" />
                 {t('cta')}
-                <ArrowRight className="w-4 h-4" />
               </BrandButton>
               <BrandButton variant="secondary" size="lg" className="gap-2">
-                <Download className="w-4 h-4" />
                 {t('ctaSecondary')}
+                <ArrowRight className="w-4 h-4" />
               </BrandButton>
             </motion.div>
 
@@ -106,23 +106,36 @@ export function HeroSection() {
               {/* Phone frame */}
               <div className="relative bg-neutral-900 rounded-[3rem] p-3 shadow-2xl shadow-neutral-900/30">
                 <div className="bg-neutral-100 dark:bg-neutral-800 rounded-[2.4rem] overflow-hidden aspect-[9/19.5]">
-                  {/* Screen content placeholder */}
+                  {/* Screen content */}
                   <div className="w-full h-full bg-gradient-to-b from-rose-50 to-white dark:from-neutral-900 dark:to-neutral-800 flex flex-col items-center justify-center p-6">
                     <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#E8435A] to-[#FF7854] flex items-center justify-center mb-4">
-                      <span className="text-3xl">❤️</span>
+                      <span className="text-3xl">🎯</span>
                     </div>
                     <div className="text-center">
-                      <p className="font-bold text-neutral-900 dark:text-white text-lg">Find Your Soulmate</p>
-                      <p className="text-sm text-neutral-500 mt-1">Your journey starts here</p>
+                      <p className="font-bold text-neutral-900 dark:text-white text-lg">Charismo</p>
+                      <p className="text-sm text-neutral-500 mt-1">Your AI Dating Coach</p>
                     </div>
                     {/* Progress bars */}
                     <div className="w-full mt-8 space-y-3">
-                      {[75, 45, 90, 30].map((w, i) => (
+                      {[
+                        { w: 100, label: 'Foundation' },
+                        { w: 75, label: 'Conversation' },
+                        { w: 45, label: 'Connection' },
+                        { w: 10, label: 'Flirting' },
+                      ].map((phase, i) => (
                         <div key={i} className="space-y-1">
+                          <div className="flex justify-between items-center">
+                            <span className="text-[10px] font-medium text-neutral-600 dark:text-neutral-400">
+                              {phase.label}
+                            </span>
+                            <span className="text-[10px] text-neutral-400">
+                              {phase.w}%
+                            </span>
+                          </div>
                           <div className="h-2 bg-neutral-200 dark:bg-neutral-700 rounded-full overflow-hidden">
                             <motion.div
                               initial={{ width: 0 }}
-                              animate={{ width: `${w}%` }}
+                              animate={{ width: `${phase.w}%` }}
                               transition={{ delay: 1 + i * 0.2, duration: 0.8, ease: 'easeOut' }}
                               className="h-full bg-gradient-to-r from-[#E8435A] to-[#FF7854] rounded-full"
                             />
@@ -161,8 +174,8 @@ export function HeroSection() {
                 <div className="flex items-center gap-2">
                   <span className="text-lg">🎓</span>
                   <div>
-                    <p className="text-xs font-semibold text-neutral-900 dark:text-white">Ch. 8 Complete</p>
-                    <p className="text-[10px] text-neutral-500">Humor & Wit</p>
+                    <p className="text-xs font-semibold text-neutral-900 dark:text-white">Phase 2 Complete</p>
+                    <p className="text-[10px] text-neutral-500">Conversation</p>
                   </div>
                 </div>
               </motion.div>

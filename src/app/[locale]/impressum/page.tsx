@@ -12,13 +12,13 @@ export default function ImpressumPage() {
 
         <h2>{locale === 'de' ? 'Kontakt' : 'Contact'}</h2>
         <p>
-          Find Your Soulmate<br />
+          FlirtIQ<br />
           {locale === 'de' ? 'Musterstraße 1' : 'Sample Street 1'}<br />
           12345 Berlin<br />
           {locale === 'de' ? 'Deutschland' : 'Germany'}
         </p>
         <p>
-          E-Mail: hello@findyoursoulmate.app
+          E-Mail: hello@flirtiq.app
         </p>
 
         <h2>{locale === 'de' ? 'Verantwortlich für den Inhalt' : 'Responsible for Content'}</h2>

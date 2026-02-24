@@ -7,19 +7,13 @@ import { SectionBadge } from '@/components/shared/section-badge';
 import { motion } from 'framer-motion';
 import { Check, Shield, ArrowLeft } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-import { chapters } from '@/data/content';
-import { createCheckoutSession } from '@/actions/checkout';
+import { chapters, phases } from '@/data/content';
 import type { Locale } from '@/i18n/routing';
 
 export default function CoursePage() {
   const t = useTranslations('pricing');
   const locale = useLocale() as Locale;
-  const features = t.raw('features') as string[];
-
-  async function handleCheckout() {
-    const { url } = await createCheckoutSession(locale);
-    if (url) window.location.href = url;
-  }
+  const premiumFeatures = t.raw('premium.features') as string[];
 
   return (
     <section className="min-h-screen pt-24 pb-16">
@@ -40,28 +34,37 @@ export default function CoursePage() {
           </p>
         </div>
 
-        {/* Chapter list */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold tracking-tight text-neutral-900 dark:text-white mb-6">
-            {locale === 'de' ? 'Alle 20 Kapitel' : 'All 20 Chapters'}
-          </h2>
-          <div className="grid sm:grid-cols-2 gap-3">
-            {chapters.map((chapter) => (
-              <GlassPanel key={chapter.id} intensity="light" className="p-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-lg">{chapter.icon}</span>
-                  <div>
-                    <span className="text-xs font-mono text-neutral-400 mr-2">
-                      {String(chapter.id).padStart(2, '0')}
-                    </span>
-                    <span className="font-medium text-neutral-900 dark:text-white">
-                      {chapter.title[locale]}
-                    </span>
-                  </div>
+        {/* Chapter list grouped by phase */}
+        <div className="mb-12 space-y-8">
+          {phases.map((phase) => {
+            const phaseChapters = chapters.filter((c) => c.phase === phase.id);
+            return (
+              <div key={phase.id}>
+                <h2 className="text-lg font-bold tracking-tight text-neutral-900 dark:text-white mb-3 flex items-center gap-2">
+                  <span>{phase.icon}</span>
+                  <span className="text-sm font-mono text-[#E8435A]">Phase {phase.id}</span>
+                  <span>{phase.name[locale]}</span>
+                </h2>
+                <div className="grid sm:grid-cols-2 gap-3">
+                  {phaseChapters.map((chapter) => (
+                    <GlassPanel key={chapter.id} intensity="light" className="p-4">
+                      <div className="flex items-center gap-3">
+                        <span className="text-lg">{chapter.icon}</span>
+                        <div>
+                          <span className="text-xs font-mono text-neutral-400 mr-2">
+                            {String(chapter.id).padStart(2, '0')}
+                          </span>
+                          <span className="font-medium text-neutral-900 dark:text-white">
+                            {chapter.title[locale]}
+                          </span>
+                        </div>
+                      </div>
+                    </GlassPanel>
+                  ))}
                 </div>
-              </GlassPanel>
-            ))}
-          </div>
+              </div>
+            );
+          })}
         </div>
 
         {/* Pricing card */}
@@ -75,16 +78,30 @@ export default function CoursePage() {
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#E8435A] to-[#FF7854]" />
 
             <div className="text-center mb-8">
-              <div className="text-5xl font-bold tracking-tighter text-neutral-900 dark:text-white">
-                {t('price')}
+              <h3 className="text-lg font-semibold text-neutral-900 dark:text-white">
+                {t('premium.title')}
+              </h3>
+              <div className="mt-4 text-5xl font-bold tracking-tighter text-neutral-900 dark:text-white">
+                {t('premium.monthlyPrice')}
+                <span className="text-lg font-normal text-neutral-500">
+                  {t('premium.monthlyNote')}
+                </span>
               </div>
-              <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
-                {t('priceNote')}
-              </p>
+              <div className="mt-2 flex items-center justify-center gap-2">
+                <span className="text-sm text-neutral-500 line-through">
+                  {t('premium.yearlyOriginal')}
+                </span>
+                <span className="text-sm font-semibold text-neutral-900 dark:text-white">
+                  {t('premium.yearlyPrice')}{t('premium.yearlyNote')}
+                </span>
+                <span className="text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-2 py-0.5 rounded-full">
+                  {t('premium.yearlySavings')}
+                </span>
+              </div>
             </div>
 
             <ul className="space-y-3 mb-8">
-              {features.map((feature: string, i: number) => (
+              {premiumFeatures.map((feature: string, i: number) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-gradient-to-r from-[#E8435A] to-[#FF7854] flex items-center justify-center mt-0.5">
                     <Check className="w-3 h-3 text-white" />
@@ -94,11 +111,9 @@ export default function CoursePage() {
               ))}
             </ul>
 
-            <form action={handleCheckout}>
-              <BrandButton type="submit" size="lg" className="w-full">
-                {t('cta')}
-              </BrandButton>
-            </form>
+            <BrandButton size="lg" className="w-full">
+              {t('premium.cta')}
+            </BrandButton>
 
             <div className="flex items-center justify-center gap-2 mt-4">
               <Shield className="w-4 h-4 text-neutral-400" />
