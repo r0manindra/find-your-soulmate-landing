@@ -1,3 +1,6 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
 import { GlassPanel } from '@/components/shared/glass-panel';
 import { SectionBadge } from '@/components/shared/section-badge';
 import { BrandButton } from '@/components/shared/brand-button';

@@ -64,6 +64,11 @@
     },
     "cta": "Get Charismo Free"
   },
+  "habits": {
+    "badge": "Habit tracker",
+    "title": "Knowledge is useless without action",
+    "subtitle": "Every chapter becomes daily habits you actually do. 38 presets, custom habits, streak tracking, and a coach that roasts you when you slack."
+  },
   "pricing": {
     "badge": "Pricing",
     "title": "Start today. Free.",

@@ -3,6 +3,7 @@ import { MindsetSection } from '@/components/sections/mindset-section';
 import { BasicsSection } from '@/components/sections/basics-section';
 import { GuideSection } from '@/components/sections/guide-section';
 import { AppShowcaseSection } from '@/components/sections/app-showcase-section';
+import { HabitsSection } from '@/components/sections/habits-section';
 import { BooksSection } from '@/components/sections/books-section';
 import { PricingSection } from '@/components/sections/pricing-section';
 
@@ -45,6 +46,7 @@ export default function HomePage() {
       <BasicsSection />
       <GuideSection />
       <AppShowcaseSection />
+      <HabitsSection />
       <BooksSection />
       <PricingSection />
     </>
