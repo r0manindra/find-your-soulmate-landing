@@ -1,72 +1,73 @@
 {
   "metadata": {
-    "title": "FlirtIQ — Das Duolingo des Datings",
-    "description": "Lerne Charismo kennen, deinen KI-Dating-Coach. Meistere soziale Fähigkeiten und Flirten durch eine strukturierte 20-Kapitel-Reise mit personalisiertem KI-Coaching."
+    "title": "Charismo - Dein Dating Coach",
+    "description": "Charismo ist der Dating-Coach, der Overthinking in Handlung verwandelt. 5 Phasen. 20 Kapitel. Null Gelaber."
   },
   "nav": {
-    "guide": "Curriculum",
-    "books": "Bücher",
+    "mindset": "Mindset",
+    "basics": "Basics",
+    "guide": "Das System",
+    "books": "B\u00fccher",
     "app": "Charismo",
     "pricing": "Preise",
     "download": "Charismo laden",
-    "buyCourse": "Kostenlos starten"
+    "buyCourse": "Charismo kostenlos laden"
   },
   "hero": {
-    "badge": "Das Duolingo des Datings",
-    "title": "Schluss mit\nDating-Ratschlägen googeln",
-    "subtitle": "Lerne Charismo kennen — dein KI-Dating-Coach, der dir wirklich beibringt, wie du Verbindungen aufbaust. 20 Kapitel. 6 KI-Coaches. Null peinliche Anmachsprüche.",
-    "cta": "Charismo laden — Kostenlos",
-    "ctaSecondary": "Curriculum ansehen",
-    "socialProof": "Kostenlos starten · Verfügbar auf iOS · Keine Kreditkarte nötig"
+    "badge": "Dein Dating Coach",
+    "title": "Sie steht direkt vor dir.\nSprich sie an.",
+    "subtitle": "Charismo ist der Dating-Coach, der Overthinking in Handlung verwandelt.",
+    "cta": "Charismo kostenlos laden",
+    "ctaSecondary": "Schau was dich erwartet",
+    "socialProof": "Kostenlos auf iOS. Keine Kreditkarte."
+  },
+  "mindset": {
+    "badge": "Weckruf",
+    "title": "Deine Ausreden l\u00fcgen dich an"
+  },
+  "basics": {
+    "badge": "Nicht verhandelbar",
+    "title": "Bevor du flirten lernst"
   },
   "guide": {
-    "badge": "20 Kapitel · 5 Phasen",
-    "title": "Ein echtes System, keine Zufallstipps",
-    "subtitle": "Charismo führt dich durch ein strukturiertes Curriculum — vom Aufbau von Selbstbewusstsein bis zur Meisterung von Verbindungen. Wie Duolingo, aber für dein Liebesleben.",
-    "chaptersLabel": "Kapitel",
-    "viewAll": "Komplettes Curriculum ansehen",
-    "phaseLabel": "Phase",
-    "chaptersCount": "4 Kapitel"
+    "badge": "Das System",
+    "title": "5 Phasen. 20 Kapitel. Null Gelaber.",
+    "phaseLabel": "Phase"
   },
   "books": {
-    "badge": "Kuratierte Bibliothek",
-    "title": "12 Bücher, die wirklich helfen",
-    "subtitle": "Handverlesene Lektüre, die sich an dein Profil anpasst. Kein Blabla, keine veralteten Anmach-Handbücher — nur Bücher, die verändern, wie du über Verbindung denkst.",
+    "badge": "Leseliste",
+    "title": "B\u00fccher, die sich lohnen",
     "by": "von",
-    "booksCount": "12 essenzielle Bücher"
+    "moreNote": "+6 weitere in der App"
   },
   "appShowcase": {
-    "badge": "Triff Charismo",
-    "title": "Dein KI-Dating-Coach",
-    "subtitle": "Keine Dating-App. Eine Dating-Bildungs-App, die dir beibringt, WIE du Verbindungen aufbaust — mit KI-Coaches, die echte, personalisierte Ratschläge geben.",
+    "badge": "Charismo",
+    "title": "Eine Dating-Schule in deiner Tasche",
+    "subtitle": "Keine Dating-App. Eine Dating-Bildungs-App.",
     "features": {
-      "progress": {
-        "title": "6 KI-Coach-Persönlichkeiten",
-        "description": "Von Charismo, dem charismatischen Mentor, bis Sage, dem achtsamen Introvertiertenguide. Wähle den Coach, der zu dir passt."
+      "coaches": {
+        "title": "Ein Coach, der dich versteht",
+        "description": "6 KI-Pers\u00f6nlichkeiten. W\u00e4hle die, die deine Sprache spricht."
       },
-      "ai": {
-        "title": "Personalisierter Lernpfad",
-        "description": "Mach das Onboarding-Quiz — soziale Energie, Fähigkeitslevel, Dating-Ziele — und bekomme ein auf dich zugeschnittenes Curriculum."
+      "pace": {
+        "title": "Auf dich zugeschnitten",
+        "description": "Das Onboarding-Quiz findet heraus, wo du stehst. Das Curriculum passt sich an."
       },
-      "achievements": {
-        "title": "Gamification & Streaks",
-        "description": "Kapitel-Tracking, tägliche Streaks und ein Abschlusssystem. Weil Konstanz Motivation schlägt."
-      },
-      "books": {
-        "title": "12 kuratierte Bücher",
-        "description": "Buchempfehlungen, die sich an dein Profil anpassen. Verfolge deinen Lesefortschritt neben deinen Kapiteln."
+      "streaks": {
+        "title": "Zeig dich jeden Tag",
+        "description": "Streaks, Fortschritts-Tracking, Abschluss. Konstanz gewinnt."
       }
     },
-    "cta": "Bald verfügbar auf iOS"
+    "cta": "Charismo kostenlos laden"
   },
   "pricing": {
-    "badge": "Kostenlos starten",
-    "title": "Lerne in deinem Tempo",
-    "subtitle": "Starte mit Phase 1 und einem kostenlosen KI-Coach. Geh Premium, wenn du bereit für die komplette Reise bist.",
+    "badge": "Preise",
+    "title": "Starte heute. Kostenlos.",
+    "subtitle": "Phase 1 geht auf uns. Werde Premium, wenn du bereit bist.",
     "free": {
       "title": "Kostenlos",
-      "price": "0 $",
-      "priceNote": "für immer",
+      "price": "0 \u20ac",
+      "priceNote": "f\u00fcr immer",
       "features": [
         "Phase 1: Grundlagen (4 Kapitel)",
         "1 KI-Coach (Charismo)",
@@ -77,23 +78,23 @@
     },
     "premium": {
       "title": "Premium",
-      "monthlyPrice": "6,99 $",
+      "monthlyPrice": "6,99 \u20ac",
       "monthlyNote": "/Monat",
-      "yearlyPrice": "49,99 $",
+      "yearlyPrice": "49,99 \u20ac",
       "yearlyNote": "/Jahr",
       "yearlySavings": "40% sparen",
-      "yearlyOriginal": "83,88 $",
+      "yearlyOriginal": "83,88 \u20ac",
       "features": [
         "Alle 20 Kapitel in 5 Phasen",
-        "Alle 6 KI-Coach-Persönlichkeiten",
-        "12 personalisierte Buchempfehlungen",
-        "Volles Gamification & Streak-Tracking",
-        "Regelmäßig neue Inhalte"
+        "Alle 6 KI-Coach-Pers\u00f6nlichkeiten",
+        "12 Buchempfehlungen",
+        "Volles Fortschritts-Tracking und Streaks",
+        "Regelm\u00e4\u00dfig neue Inhalte"
       ],
       "cta": "Premium werden",
       "popular": "Beliebteste Wahl"
     },
-    "guarantee": "Jederzeit kündbar. Keine Fragen."
+    "guarantee": "Jederzeit k\u00fcndbar. Keine Fragen."
   },
   "footer": {
     "tagline": "Wir bringen der Welt bei, wie man sich wirklich verbindet.",
@@ -102,19 +103,19 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "resources": "Ressourcen",
-    "copyright": "© {year} FlirtIQ. Alle Rechte vorbehalten."
+    "copyright": "\u00a9 {year} FlirtIQ. Alle Rechte vorbehalten."
   },
   "legal": {
     "impressum": {
       "title": "Impressum",
-      "content": "Angaben gemäß § 5 TMG"
+      "content": "Angaben gem\u00e4\u00df \u00a7 5 TMG"
     },
     "privacy": {
-      "title": "Datenschutzerklärung",
+      "title": "Datenschutzerkl\u00e4rung",
       "lastUpdated": "Zuletzt aktualisiert: {date}"
     },
     "terms": {
-      "title": "Allgemeine Geschäftsbedingungen",
+      "title": "Allgemeine Gesch\u00e4ftsbedingungen",
       "lastUpdated": "Zuletzt aktualisiert: {date}"
     }
   }

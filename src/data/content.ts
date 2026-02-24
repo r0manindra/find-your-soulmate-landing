@@ -1,4 +1,4 @@
-// Shared content data — phases, chapters, and books
+// Shared content data: phases, chapters, books, mindset, and basics
 
 export interface Phase {
   id: number;
@@ -25,6 +25,102 @@ export interface Book {
   description: { en: string; de: string };
   emoji: string;
 }
+
+export interface MindsetItem {
+  id: number;
+  excuse?: { en: string; de: string };
+  reframe: { en: string; de: string };
+}
+
+export interface BasicsItem {
+  id: number;
+  emoji: string;
+  label: { en: string; de: string };
+  oneLiner: { en: string; de: string };
+}
+
+export const mindsetItems: MindsetItem[] = [
+  {
+    id: 1,
+    excuse: { en: "I'll talk to her next time.", de: 'Ich sprech sie beim n\u00e4chsten Mal an.' },
+    reframe: { en: 'There is no next time.', de: 'Es gibt kein n\u00e4chstes Mal.' },
+  },
+  {
+    id: 2,
+    excuse: { en: 'What if she says no?', de: 'Was wenn sie Nein sagt?' },
+    reframe: { en: 'What if she says yes?', de: 'Was wenn sie Ja sagt?' },
+  },
+  {
+    id: 3,
+    excuse: { en: "I'm not ready yet.", de: 'Ich bin noch nicht bereit.' },
+    reframe: { en: "You'll never be ready. Go anyway.", de: 'Du wirst nie bereit sein. Geh trotzdem.' },
+  },
+  {
+    id: 4,
+    excuse: { en: "She's out of my league.", de: 'Sie ist nicht in meiner Liga.' },
+    reframe: { en: "Leagues don't exist. Energy does.", de: 'Ligen gibt es nicht. Energie schon.' },
+  },
+  {
+    id: 5,
+    excuse: { en: "I don't want to be weird.", de: 'Ich will nicht komisch wirken.' },
+    reframe: { en: 'A genuine hello is never weird.', de: 'Ein ehrliches Hallo ist nie komisch.' },
+  },
+  {
+    id: 6,
+    reframe: { en: 'A no is better than not knowing.', de: 'Ein Nein ist besser als Ungewissheit.' },
+  },
+];
+
+export const basicsItems: BasicsItem[] = [
+  {
+    id: 1,
+    emoji: '\ud83d\udebf',
+    label: { en: 'Hygiene', de: 'Hygiene' },
+    oneLiner: { en: 'Shower. Cologne. Clean nails. Done.', de: 'Duschen. Parfum. Saubere N\u00e4gel. Fertig.' },
+  },
+  {
+    id: 2,
+    emoji: '\ud83d\udde3\ufe0f',
+    label: { en: 'Voice', de: 'Stimme' },
+    oneLiner: { en: 'Slower. Deeper. From the chest.', de: 'Langsamer. Tiefer. Aus der Brust.' },
+  },
+  {
+    id: 3,
+    emoji: '\ud83e\uddcd',
+    label: { en: 'Posture', de: 'Haltung' },
+    oneLiner: { en: 'Shoulders back. Head up. Take up space.', de: 'Schultern zur\u00fcck. Kopf hoch. Nimm Raum ein.' },
+  },
+  {
+    id: 4,
+    emoji: '\ud83d\udc54',
+    label: { en: 'Style', de: 'Stil' },
+    oneLiner: { en: "Clothes that fit. That's literally it.", de: 'Klamotten die passen. Das war\u2019s.' },
+  },
+  {
+    id: 5,
+    emoji: '\ud83e\udd1d',
+    label: { en: 'Manners', de: 'Umgangsformen' },
+    oneLiner: { en: 'Eye contact. Listen. Put your phone away.', de: 'Blickkontakt. Zuh\u00f6ren. Handy weg.' },
+  },
+  {
+    id: 6,
+    emoji: '\ud83d\udcaa',
+    label: { en: 'Discipline', de: 'Disziplin' },
+    oneLiner: { en: 'Gym. Sleep. Eat right. Everything else follows.', de: 'Training. Schlaf. Ern\u00e4hrung. Alles andere folgt.' },
+  },
+  {
+    id: 7,
+    emoji: '\ud83d\udcda',
+    label: { en: 'Read', de: 'Lesen' },
+    oneLiner: { en: 'Books, not tweets. Have something to say.', de: 'B\u00fccher, keine Tweets. Hab was zu sagen.' },
+  },
+  {
+    id: 8,
+    emoji: '\ud83d\udd25',
+    label: { en: 'Confidence', de: 'Selbstbewusstsein' },
+    oneLiner: { en: 'Not a feeling. A habit.', de: 'Kein Gef\u00fchl. Eine Gewohnheit.' },
+  },
+];
 
 export const phases: Phase[] = [
   {

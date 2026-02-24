@@ -18,6 +18,8 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navLinks = [
+    { href: '/#mindset', label: t('mindset') },
+    { href: '/#basics', label: t('basics') },
     { href: '/#guide', label: t('guide') },
     { href: '/#books', label: t('books') },
     { href: '/#app', label: t('app') },

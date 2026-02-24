@@ -1,68 +1,69 @@
 {
   "metadata": {
-    "title": "FlirtIQ — The Duolingo of Dating",
-    "description": "Meet Charismo, your AI dating coach. Master social skills and flirting through a structured 20-chapter journey with personalized AI coaching. Free to start."
+    "title": "Charismo - Your Dating Coach",
+    "description": "Charismo is the dating coach that turns overthinking into action. 5 phases. 20 chapters. Zero fluff."
   },
   "nav": {
-    "guide": "Curriculum",
+    "mindset": "Mindset",
+    "basics": "Basics",
+    "guide": "The System",
     "books": "Books",
     "app": "Charismo",
     "pricing": "Pricing",
     "download": "Get Charismo",
-    "buyCourse": "Start Free"
+    "buyCourse": "Get Charismo Free"
   },
   "hero": {
-    "badge": "The Duolingo of Dating",
-    "title": "Stop Googling\nDating Advice",
-    "subtitle": "Meet Charismo — your AI dating coach that actually teaches you how to connect. 20 chapters. 6 AI coaches. Zero cringe pickup lines.",
-    "cta": "Download Charismo — It's Free",
-    "ctaSecondary": "See the Curriculum",
-    "socialProof": "Free to start · Available on iOS · No credit card needed"
+    "badge": "Your dating coach",
+    "title": "She's right there.\nGo talk to her.",
+    "subtitle": "Charismo is the dating coach that turns overthinking into action.",
+    "cta": "Get Charismo Free",
+    "ctaSecondary": "See what you'll learn",
+    "socialProof": "Free on iOS. No credit card."
+  },
+  "mindset": {
+    "badge": "Wake up call",
+    "title": "Your excuses are lying to you"
+  },
+  "basics": {
+    "badge": "Non-negotiable",
+    "title": "Before you learn to flirt"
   },
   "guide": {
-    "badge": "20 Chapters · 5 Phases",
-    "title": "A Real System, Not Random Tips",
-    "subtitle": "Charismo walks you through a structured curriculum — from building confidence to mastering connection. Think Duolingo, but for your love life.",
-    "chaptersLabel": "chapters",
-    "viewAll": "View full curriculum",
-    "phaseLabel": "Phase",
-    "chaptersCount": "4 chapters"
+    "badge": "The system",
+    "title": "5 phases. 20 chapters. Zero fluff.",
+    "phaseLabel": "Phase"
   },
   "books": {
-    "badge": "Curated Library",
-    "title": "12 Books That Actually Help",
-    "subtitle": "Hand-picked reads that adapt to your profile. No fluff, no outdated pickup manuals — just books that change how you think about connection.",
+    "badge": "Reading list",
+    "title": "Books worth your time",
     "by": "by",
-    "booksCount": "12 essential reads"
+    "moreNote": "+6 more inside the app"
   },
   "appShowcase": {
-    "badge": "Meet Charismo",
-    "title": "Your AI Dating Coach",
-    "subtitle": "Not another dating app. A dating education app that teaches you HOW to connect — with AI coaches who give real, personalized advice.",
+    "badge": "Charismo",
+    "title": "A dating school in your pocket",
+    "subtitle": "Not a dating app. A dating education app.",
     "features": {
-      "progress": {
-        "title": "6 AI Coach Personalities",
-        "description": "From Charismo the charismatic mentor to Sage the mindful introvert guide. Pick the coach that matches your vibe."
+      "coaches": {
+        "title": "A coach that gets your vibe",
+        "description": "6 AI personalities. Pick the one that speaks your language."
       },
-      "ai": {
-        "title": "Personalized Learning Path",
-        "description": "Take the onboarding quiz — social energy, skill level, dating goals — and get a curriculum tailored to you."
+      "pace": {
+        "title": "Built around you",
+        "description": "Onboarding quiz figures out where you are. Curriculum adapts."
       },
-      "achievements": {
-        "title": "Gamification & Streaks",
-        "description": "Chapter tracking, daily streaks, and a graduation system. Because consistency beats motivation."
-      },
-      "books": {
-        "title": "12 Curated Books",
-        "description": "Book recommendations that adapt to your profile. Track your reading progress alongside your chapters."
+      "streaks": {
+        "title": "Show up every day",
+        "description": "Streaks, progress tracking, graduation. Consistency wins."
       }
     },
-    "cta": "Coming Soon to iOS"
+    "cta": "Get Charismo Free"
   },
   "pricing": {
-    "badge": "Free to Start",
-    "title": "Learn at Your Own Pace",
-    "subtitle": "Start with Phase 1 and a free AI coach. Go premium when you're ready for the full journey.",
+    "badge": "Pricing",
+    "title": "Start today. Free.",
+    "subtitle": "Phase 1 is on us. Go premium when you're ready.",
     "free": {
       "title": "Free",
       "price": "$0",
@@ -86,8 +87,8 @@
       "features": [
         "All 20 chapters across 5 phases",
         "All 6 AI coach personalities",
-        "12 personalized book recommendations",
-        "Full gamification & streak tracking",
+        "12 book recommendations",
+        "Full progress tracking and streaks",
         "New content added regularly"
       ],
       "cta": "Go Premium",
@@ -102,12 +103,12 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
     "resources": "Resources",
-    "copyright": "© {year} FlirtIQ. All rights reserved."
+    "copyright": "\u00a9 {year} FlirtIQ. All rights reserved."
   },
   "legal": {
     "impressum": {
       "title": "Impressum",
-      "content": "Information according to § 5 TMG"
+      "content": "Information according to \u00a7 5 TMG"
     },
     "privacy": {
       "title": "Privacy Policy",

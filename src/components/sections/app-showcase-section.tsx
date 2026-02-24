@@ -5,13 +5,12 @@ import { GlassPanel } from '@/components/shared/glass-panel';
 import { SectionBadge } from '@/components/shared/section-badge';
 import { BrandButton } from '@/components/shared/brand-button';
 import { motion } from 'framer-motion';
-import { Users, Route, Flame, BookOpen, Download } from 'lucide-react';
+import { Users, Route, Flame, Download } from 'lucide-react';
 
 const features = [
-  { key: 'progress', icon: Users },
-  { key: 'ai', icon: Route },
-  { key: 'achievements', icon: Flame },
-  { key: 'books', icon: BookOpen },
+  { key: 'coaches', icon: Users },
+  { key: 'pace', icon: Route },
+  { key: 'streaks', icon: Flame },
 ] as const;
 
 export function AppShowcaseSection() {
@@ -41,8 +40,8 @@ export function AppShowcaseSection() {
           </motion.p>
         </div>
 
-        {/* Features grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* Features grid - 3 columns */}
+        <div className="grid sm:grid-cols-3 gap-4">
           {features.map((feature, i) => {
             const Icon = feature.icon;
             return (
@@ -75,7 +74,7 @@ export function AppShowcaseSection() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <BrandButton size="lg" variant="secondary" className="gap-2">
+          <BrandButton size="lg" className="gap-2">
             <Download className="w-4 h-4" />
             {t('cta')}
           </BrandButton>
