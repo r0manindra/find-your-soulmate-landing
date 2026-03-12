@@ -62,7 +62,8 @@
         "description": "Streaks, Fortschritts-Tracking, Abschluss. Konstanz gewinnt."
       }
     },
-    "cta": "Charismo kostenlos laden"
+    "cta": "Charismo kostenlos laden",
+    "explore": "App entdecken"
   },
   "habits": {
     "badge": "Habit Tracker",
@@ -104,6 +105,89 @@
       "popular": "Beliebteste Wahl"
     },
     "guarantee": "Jederzeit k\u00fcndbar. Keine Fragen."
+  },
+  "appPage": {
+    "hero": {
+      "badge": "In der App",
+      "titleLine1": "Alles was du brauchst,",
+      "titleLine2": "um sie zu finden.",
+      "subtitle": "25 Kapitel, 6 KI-Coaches, 7 \u00dcbungsmodi, Habit Tracking und ein Phrasebook. Charismo ist ein komplettes Dating-Bildungssystem.",
+      "cta": "Charismo kostenlos laden",
+      "note": "Kostenlos auf iOS. Keine Kreditkarte."
+    },
+    "guide": {
+      "badge": "Der Guide",
+      "title": "25 Kapitel. 6 Phasen. Eine Reise.",
+      "description": "Ein strukturiertes Curriculum, das dich von den Grundlagen bis zur Partnersuche begleitet. Kein Gelaber — nur umsetzbare Lektionen mit echten \u00dcbungen.",
+      "point1": "Phase 0–5: Von Hygiene-Basics bis zur Beziehung",
+      "point2": "Jedes Kapitel hat Lektionen, \u00dcbungen, Quizze und Buchempfehlungen",
+      "point3": "KI-Coach-Gespr\u00e4ch nach jedem Kapitel",
+      "point4": "Visueller Lernpfad — sieh genau, wo du stehst"
+    },
+    "coach": {
+      "badge": "KI-Coaching",
+      "title": "Ein Coach, der dich wirklich versteht.",
+      "description": "6 KI-Coach-Pers\u00f6nlichkeiten, jede mit einem einzigartigen Ton, Stil und Ansatz. Sie erinnern sich an deine Reise und passen sich deinem Fortschritt an.",
+      "coaches": {
+        "charismo": "Charismo — Ausgeglichen & souver\u00e4n",
+        "maverick": "The Maverick — Brutal ehrlich",
+        "gentleman": "The Gentleman — Warm & witzig",
+        "natural": "The Natural — Locker & cool",
+        "legend": "The Legend — Unstoppbarer Hype",
+        "smooth": "The Smooth Operator — Ruhig & bedacht"
+      }
+    },
+    "modes": {
+      "badge": "\u00dcbungsmodi",
+      "title": "Nicht nur lesen. \u00dcben.",
+      "description": "7 KI-gest\u00fctzte \u00dcbungsmodi, die echte soziale Situationen simulieren. Sofortiges Feedback und echte Skills aufbauen.",
+      "list": {
+        "openingLab": "Opening Line Lab — KI bewertet deine Er\u00f6ffner 1\u201310",
+        "pingPong": "Conversation Ping-Pong — Dir gehen nie die Themen aus",
+        "rejectionGym": "Rejection Gym — Mit Absagen souver\u00e4n umgehen",
+        "dateSim": "Date Simulator — Komplettes Erstes-Date-Rollenspiel",
+        "banter": "Flirty Banter — Bewertet nach Humor und Flirtfaktor",
+        "replyHelper": "Reply Helper — Smarte Antwortvorschl\u00e4ge f\u00fcr echte Nachrichten",
+        "battle": "Flirting Battle — Rollenspiel gegen KI-Charaktere"
+      }
+    },
+    "habits": {
+      "badge": "Habit Tracker",
+      "title": "Aus Lektionen werden t\u00e4gliche Gewohnheiten.",
+      "description": "Wissen ohne Handlung ist nutzlos. Der eingebaute Habit Tracker macht aus jedem Kapitel echte t\u00e4gliche Praxis.",
+      "point1": "50 voreingestellte Habits, verkn\u00fcpft mit Kapiteln",
+      "point2": "Morgens, mittags und abends planbar",
+      "point3": "Streak-Tracking mit Wochen\u00fcbersicht",
+      "point4": "Coach-Erinnerungen bei 7, 14 und 30 Tagen"
+    },
+    "more": {
+      "badge": "Und mehr",
+      "title": "Alles andere ist auch drin.",
+      "features": {
+        "phrasebook": {
+          "title": "Flirting Phrasebook",
+          "description": "Fertige Er\u00f6ffner, Komplimente, Gespr\u00e4chsvertiefer, schlagfertige Antworten und Abschluss-S\u00e4tze — mit Erkl\u00e4rungen."
+        },
+        "books": {
+          "title": "12 Buchempfehlungen",
+          "description": "Handverlesene Leseliste, verkn\u00fcpft mit Kapiteln. Personalisierte Reihenfolge basierend auf deinem Level."
+        },
+        "gamification": {
+          "title": "Gamification",
+          "description": "Herzen-System, t\u00e4gliche Streaks, 7 Achievements, Quiz-Scores und Habit-Streaks halten dich motiviert."
+        },
+        "personalized": {
+          "title": "Personalisiert ab Tag 1",
+          "description": "Onboarding-Quiz w\u00e4hlt deinen Coach, ordnet B\u00fccher, passt den Ton an dein Alter und den Inhalt an dein Geschlecht an."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, das Overthinking zu stoppen?",
+      "subtitle": "Lade Charismo herunter und beginne, die Skills aufzubauen, die alles ver\u00e4ndern.",
+      "button": "Charismo kostenlos laden",
+      "note": "Kostenlos auf iOS. Keine Kreditkarte n\u00f6tig."
+    }
   },
   "footer": {
     "tagline": "Wir bringen der Welt bei, wie man sich wirklich verbindet.",

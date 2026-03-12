@@ -5,6 +5,7 @@ import { BrandButton } from '@/components/shared/brand-button';
 import { SectionBadge } from '@/components/shared/section-badge';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
+import Image from 'next/image';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -105,45 +106,15 @@ export function HeroSection() {
             <div className="relative w-72 sm:w-80">
               {/* Phone frame */}
               <div className="relative bg-neutral-900 rounded-[3rem] p-3 shadow-2xl shadow-neutral-900/30">
-                <div className="bg-neutral-100 dark:bg-neutral-800 rounded-[2.4rem] overflow-hidden aspect-[9/19.5]">
-                  {/* Screen content */}
-                  <div className="w-full h-full bg-gradient-to-b from-rose-50 to-white dark:from-neutral-900 dark:to-neutral-800 flex flex-col items-center justify-center p-6">
-                    <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#E8435A] to-[#FF7854] flex items-center justify-center mb-4">
-                      <span className="text-3xl">🎯</span>
-                    </div>
-                    <div className="text-center">
-                      <p className="font-bold text-neutral-900 dark:text-white text-lg">Charismo</p>
-                      <p className="text-sm text-neutral-500 mt-1">Your AI Dating Coach</p>
-                    </div>
-                    {/* Progress bars */}
-                    <div className="w-full mt-8 space-y-3">
-                      {[
-                        { w: 100, label: 'Foundation' },
-                        { w: 75, label: 'Conversation' },
-                        { w: 45, label: 'Connection' },
-                        { w: 10, label: 'Flirting' },
-                      ].map((phase, i) => (
-                        <div key={i} className="space-y-1">
-                          <div className="flex justify-between items-center">
-                            <span className="text-[10px] font-medium text-neutral-600 dark:text-neutral-400">
-                              {phase.label}
-                            </span>
-                            <span className="text-[10px] text-neutral-400">
-                              {phase.w}%
-                            </span>
-                          </div>
-                          <div className="h-2 bg-neutral-200 dark:bg-neutral-700 rounded-full overflow-hidden">
-                            <motion.div
-                              initial={{ width: 0 }}
-                              animate={{ width: `${phase.w}%` }}
-                              transition={{ delay: 1 + i * 0.2, duration: 0.8, ease: 'easeOut' }}
-                              className="h-full bg-gradient-to-r from-[#E8435A] to-[#FF7854] rounded-full"
-                            />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                <div className="rounded-[2.4rem] overflow-hidden aspect-[9/19.5] relative bg-neutral-900">
+                  <Image
+                    src="/screenshots/Homefeed.png"
+                    alt="Charismo app home feed"
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 640px) 288px, 320px"
+                    priority
+                  />
                 </div>
                 {/* Notch */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-neutral-900 rounded-b-2xl" />

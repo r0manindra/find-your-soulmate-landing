@@ -18,6 +18,10 @@ export const routing = defineRouting({
       en: '/terms',
       de: '/agb',
     },
+    '/app': {
+      en: '/app',
+      de: '/app',
+    },
   },
 });
 

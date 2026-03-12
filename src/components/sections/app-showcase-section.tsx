@@ -4,8 +4,9 @@ import { useTranslations } from 'next-intl';
 import { GlassPanel } from '@/components/shared/glass-panel';
 import { SectionBadge } from '@/components/shared/section-badge';
 import { BrandButton } from '@/components/shared/brand-button';
+import { Link } from '@/i18n/navigation';
 import { motion } from 'framer-motion';
-import { Users, Route, Flame, Download } from 'lucide-react';
+import { Users, Route, Flame, Download, ArrowRight } from 'lucide-react';
 
 const features = [
   { key: 'coaches', icon: Users },
@@ -72,12 +73,18 @@ export function AppShowcaseSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mt-12"
+          className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center"
         >
           <BrandButton size="lg" className="gap-2">
             <Download className="w-4 h-4" />
             {t('cta')}
           </BrandButton>
+          <Link href="/app">
+            <BrandButton variant="secondary" size="lg" className="gap-2">
+              {t('explore')}
+              <ArrowRight className="w-4 h-4" />
+            </BrandButton>
+          </Link>
         </motion.div>
       </div>
     </section>

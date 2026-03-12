@@ -62,7 +62,8 @@
         "description": "Streaks, progress tracking, graduation. Consistency wins."
       }
     },
-    "cta": "Get Charismo Free"
+    "cta": "Get Charismo Free",
+    "explore": "Explore the app"
   },
   "habits": {
     "badge": "Habit tracker",
@@ -104,6 +105,89 @@
       "popular": "Most Popular"
     },
     "guarantee": "Cancel anytime. No questions asked."
+  },
+  "appPage": {
+    "hero": {
+      "badge": "Inside the app",
+      "titleLine1": "Everything you need",
+      "titleLine2": "to find your person.",
+      "subtitle": "25 chapters, 6 AI coaches, 7 practice modes, habit tracking, and a phrasebook. Charismo is a complete dating education system.",
+      "cta": "Get Charismo Free",
+      "note": "Free on iOS. No credit card."
+    },
+    "guide": {
+      "badge": "The Guide",
+      "title": "25 chapters. 6 phases. One journey.",
+      "description": "A structured curriculum that takes you from the fundamentals to finding your soulmate. No fluff — just actionable lessons with real exercises.",
+      "point1": "Phase 0–5: From hygiene basics to relationship commitment",
+      "point2": "Each chapter has lessons, exercises, quizzes, and book recs",
+      "point3": "Built-in AI coach conversation after every chapter",
+      "point4": "Visual learning path — see exactly where you are"
+    },
+    "coach": {
+      "badge": "AI Coaching",
+      "title": "A coach that actually gets you.",
+      "description": "6 AI coach personalities, each with a unique tone, style, and approach. They remember your journey and adapt to your progress.",
+      "coaches": {
+        "charismo": "Charismo — Balanced & confident",
+        "maverick": "The Maverick — Brutally honest",
+        "gentleman": "The Gentleman — Warm & witty",
+        "natural": "The Natural — Effortlessly cool",
+        "legend": "The Legend — Unstoppable hype",
+        "smooth": "The Smooth Operator — Calm & measured"
+      }
+    },
+    "modes": {
+      "badge": "Practice modes",
+      "title": "Don't just read. Practice.",
+      "description": "7 AI-powered exercise modes that simulate real social situations. Get instant feedback and build real skills.",
+      "list": {
+        "openingLab": "Opening Line Lab — AI rates your openers 1–10",
+        "pingPong": "Conversation Ping-Pong — Never run out of things to say",
+        "rejectionGym": "Rejection Gym — Handle rejection with grace",
+        "dateSim": "Date Simulator — Full first-date roleplay with debrief",
+        "banter": "Flirty Banter — Scored for humor and flirtiness",
+        "replyHelper": "Reply Helper — Smart reply suggestions for real messages",
+        "battle": "Flirting Battle — Roleplay against AI characters"
+      }
+    },
+    "habits": {
+      "badge": "Habit Tracker",
+      "title": "Turn lessons into daily habits.",
+      "description": "Knowledge is useless without action. The built-in habit tracker turns every chapter into real daily practice.",
+      "point1": "50 preset habits tied to specific chapters",
+      "point2": "Morning, afternoon, and evening scheduling",
+      "point3": "Streak tracking with weekly review",
+      "point4": "Coach nudges at 7, 14, and 30-day milestones"
+    },
+    "more": {
+      "badge": "And more",
+      "title": "Everything else inside.",
+      "features": {
+        "phrasebook": {
+          "title": "Flirting Phrasebook",
+          "description": "Ready-to-use opening lines, compliments, deepeners, witty responses, and closing lines — with explanations."
+        },
+        "books": {
+          "title": "12 Book Recommendations",
+          "description": "Hand-picked reading list linked to chapters. Personalized order based on your skill level and dating goal."
+        },
+        "gamification": {
+          "title": "Gamification",
+          "description": "Hearts economy, daily streaks, 7 achievements, quiz scores, and per-habit streaks to keep you going."
+        },
+        "personalized": {
+          "title": "Personalized From Day One",
+          "description": "Onboarding quiz matches your coach, orders books, adapts tone to your age, and tailors content to your gender."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to stop overthinking?",
+      "subtitle": "Download Charismo and start building the skills that change everything.",
+      "button": "Get Charismo Free",
+      "note": "Free on iOS. No credit card required."
+    }
   },
   "footer": {
     "tagline": "Teaching the world how to actually connect.",

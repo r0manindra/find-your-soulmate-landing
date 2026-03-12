@@ -22,7 +22,7 @@ export function Navbar() {
     { href: '/#basics', label: t('basics') },
     { href: '/#guide', label: t('guide') },
     { href: '/#books', label: t('books') },
-    { href: '/#app', label: t('app') },
+    { href: '/app', label: t('app'), isRoute: true },
     { href: '/#pricing', label: t('pricing') },
   ];
 
@@ -48,15 +48,25 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) =>
+            link.isRoute ? (
+              <Link
+                key={link.href}
+                href={link.href as '/app'}
+                className="text-sm font-medium text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white transition-colors"
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white transition-colors"
+              >
+                {link.label}
+              </a>
+            )
+          )}
         </div>
 
         {/* Desktop actions */}
@@ -85,16 +95,27 @@ export function Navbar() {
           className="md:hidden bg-white/90 dark:bg-neutral-900/90 backdrop-blur-lg border-t border-white/20 px-4 py-4"
         >
           <div className="flex flex-col gap-3">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="text-base font-medium text-neutral-700 dark:text-neutral-300 py-2"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  href={link.href as '/app'}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-base font-medium text-neutral-700 dark:text-neutral-300 py-2"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-base font-medium text-neutral-700 dark:text-neutral-300 py-2"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
             <div className="flex items-center justify-between pt-3 border-t border-neutral-200 dark:border-neutral-700">
               <LocaleSwitcher />
               <BrandButton size="sm">
