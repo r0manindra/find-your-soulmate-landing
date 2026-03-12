@@ -103,22 +103,15 @@ export function HeroSection() {
             transition={{ delay: 0.4, duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="relative flex justify-center lg:justify-end"
           >
-            <div className="relative w-72 sm:w-80">
-              {/* Phone frame */}
-              <div className="relative bg-neutral-900 rounded-[3rem] p-3 shadow-2xl shadow-neutral-900/30">
-                <div className="rounded-[2.4rem] overflow-hidden aspect-[9/19.5] relative bg-neutral-900">
-                  <Image
-                    src="/screenshots/Homefeed.png"
-                    alt="Charismo app home feed"
-                    fill
-                    className="object-cover object-top"
-                    sizes="(max-width: 640px) 288px, 320px"
-                    priority
-                  />
-                </div>
-                {/* Notch */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-neutral-900 rounded-b-2xl" />
-              </div>
+            <div className="relative w-64 sm:w-72">
+              <Image
+                src="/screenshots/Homefeed.png"
+                alt="Charismo app home feed"
+                width={400}
+                height={867}
+                className="w-full h-auto drop-shadow-2xl"
+                priority
+              />
 
               {/* Floating glass cards */}
               <motion.div
